@@ -1,0 +1,140 @@
+body {
+margin: 0;
+padding: 0;
+background: url(../img/fondo.jpeg) no-repeat center top;
+background-size: cover;
+font-family: sans-serif;
+height: 100vh;
+}
+
+#oferta3 {
+    max-height: 700px;
+    z-index: 1;
+    width: 100%;
+    transform: translate(0%,15%);
+    position: relative;
+}
+#oferta2 {
+    max-height: 500px;
+    width: 100%;
+    transform: translate(0%,40%);
+    position: relative;
+}
+
+#secciones {
+    max-block-size:auto;
+}
+#Seccion1 {
+    width: 24%;
+    height: 450px;
+    padding: 2px;
+    transform: translate(0%,55%);
+   
+}
+#Seccion2 {
+    width: 24%;
+    height: 450px;
+    padding: 2px;
+    
+    transform: translate(3.5%,55%);
+}
+#Seccion3 {
+    width: 24%;
+    height: 450px;
+    padding: 2px;
+   
+    transform: translate(7%,55%);
+}
+#Seccion4 {
+    width: 24%;
+    height: 450px;
+    padding: 2px;
+    transform: translate(9%,55%);
+ 
+}
+   
+     header{
+	width: 100%;
+    z-index:3;
+   
+}
+
+.navegacion{
+	width: 100%;
+	margin: 0%;
+	background: #000;
+    position:absolute;
+    z-index:3;
+}
+
+.navegacion ul{
+	list-style: none;
+}
+
+.menu > li{
+	position: relative;
+	display: inline-block;
+}
+
+.menu > li > a{
+	display: block;
+	padding: 15px 20px;
+	color: #fff;
+	font-family: 'Open sans';
+	text-decoration: none;
+}
+
+.menu li a:hover{
+	color: red;
+	transition: all .3s;
+}
+.wallet-btn{
+    border-radius: 5rem;
+    margin-left: 2rem;
+    border-color: transparent;
+    background-color: orange;
+}
+.btn {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background:orange;
+    color: var(--accent-color);
+    font-family: var(--font-secondary);
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1rem;
+    text-transform: capitalize;
+    transition: all 0.3s ease;
+    box-shadow: 4px 4px 0 0 var(--accent-color);
+    cursor: pointer;
+    position: relative;
+    text-decoration: none;
+    outline: none;
+}
+
+    .btn:hover {
+        box-shadow: yellow;
+    }
+/* Submenu*/
+.submenu {
+    position: absolute;
+    background: #000;
+    width: 120%;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1.5s;
+}
+
+.submenu li a{
+	display: block;
+	padding: 15px;
+	color: #fff;
+	font-family: 'Open sans';
+	text-decoration: none;
+}
+
+.menu li:hover .submenu{
+	visibility: visible;
+	opacity: 1;
+}
+   
